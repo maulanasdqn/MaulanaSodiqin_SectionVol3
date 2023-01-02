@@ -1,26 +1,38 @@
 # Section V3
+
 # Created By Maulana Sodiqin
 
 ## Project Structure
-`src
-  |---assets
-        |---img
-             |---logo
-             |---icons
-        |---css
-             |---header
-                  |---index.css
-             |---main
-                  |---index.css
-             |---global
-                  |---variable.css
-                  |---color.css
-                  |---fonts.css
-            |--styles.css
-        |---js
-            |---app.js
-            |---helper.js
-            |---utilities.js
-  |---index.html
-  |---.gitignore
-`
+
+```
+/
+├── public/
+│    └── favicon.ico
+│    └── _redirects
+├── src/
+│    └── assets
+│    |    └── img
+│    |    └── fonts
+│    |    └── logo
+│    |    └── icons
+│    └── libs
+│    |    └── app.js
+│    |    └── eventHandler.js
+│    └── styles
+│    |    └── header
+│    |    |    └── index.css
+│    |    └── main
+│    |    |    └── index.css
+│    |    └── common
+│    |    |    └── global.css
+│    |    |    └── variable.css
+│    |    |    └── fonts.css
+│    |    |    └── index.css
+│    |    └── styles.css
+│    └── utilities
+│         └── helper.js
+│         └── constant.js
+└── .gitignore
+└── index.html
+└── README.md
+```
