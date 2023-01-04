@@ -1,11 +1,14 @@
 * {
   margin: 0;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: #f8fafb;
 }
 
 :root {
-  --red-100: rgb(254, 5, 5);
+  --primary: #9080d5;
 }

@@ -1,0 +1,167 @@
+.header {
+  animation: fadeIn 2s;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.header-figure-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-figcaption {
+  font-weight: 800;
+  line-height: 2rem;
+  color: var(--primary);
+}
+
+.header-logo {
+  width: 2rem;
+}
+
+.header-nav-wrap {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header-nav-link:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-button-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-button {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: 400;
+  padding: 0.6rem;
+  border-radius: 1rem;
+}
+
+.header-button.black {
+  background-color: black;
+  color: white;
+}
+
+@keyframes tiltIn {
+  0% {
+  }
+}
+
+.header-hamburger {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) {
+  .header-nav-wrap {
+    display: none;
+  }
+
+  .header-figcaption {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .header-button-wrap {
+    display: none;
+  }
+
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header-hamburger {
+    display: block;
+    width: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .header-figure-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .header-figcaption {
+    font-weight: 800;
+    line-height: 2rem;
+    color: var(--primary);
+  }
+
+  .header-logo {
+    width: 2rem;
+  }
+
+  .header-nav-wrap {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .header-nav-link:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .header-button-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .header-button {
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 400;
+    padding: 0.6rem;
+    border-radius: 1rem;
+  }
+
+  .header-button.black {
+    background-color: black;
+    color: white;
+  }
+
+  .header-hamburger {
+    display: none;
+  }
+}
