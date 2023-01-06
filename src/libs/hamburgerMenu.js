@@ -1,7 +1,5 @@
 export const menu = document.getElementById("menu");
 
-const hamburgerMenu = (display) => {
-  menu.style.display = display;
+export const hamburgerMenu = (val) => {
+  menu.style.rotate = val ? "90deg" : "0deg";
 };
-
-export default hamburgerMenu;

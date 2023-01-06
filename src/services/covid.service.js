@@ -7,14 +7,15 @@ const CovidService = {
         methods: "GET",
         headers: {
           "Content-Type": "application/json",
+          "api-key": "480d0aeb78bd0064d45ef6b2254be9b3",
         },
       },
-      url: "/covid",
+      url: "/kasus/total",
     };
 
     try {
       const res = await ApiService.customRequest(requestData);
-      return res;
+      return res.data;
     } catch (e) {
       console.log(e);
     }
