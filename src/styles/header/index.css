@@ -68,11 +68,6 @@
   color: white;
 }
 
-@keyframes tiltIn {
-  0% {
-  }
-}
-
 .header-hamburger {
   display: none;
 }
