@@ -1,5 +1,5 @@
-import { setTitle } from "../utilities/helper.js";
 import CovidService from "../services/covid.service.js";
+import hamburgerMenu from "./hamburgerMenu.js";
 
-setTitle("Covid Status Tracker");
+hamburgerMenu("block");
 CovidService.getCovid();
